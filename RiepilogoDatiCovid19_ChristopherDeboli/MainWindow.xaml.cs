@@ -24,5 +24,10 @@ namespace RiepilogoDatiCovid19_ChristopherDeboli
         {
             InitializeComponent();
         }
+
+        private void Btn_CercaRegione_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
