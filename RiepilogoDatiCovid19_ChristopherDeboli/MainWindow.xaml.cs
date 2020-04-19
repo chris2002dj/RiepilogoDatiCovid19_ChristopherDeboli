@@ -27,7 +27,16 @@ namespace RiepilogoDatiCovid19_ChristopherDeboli
 
         private void Btn_CercaRegione_Click(object sender, RoutedEventArgs e)
         {
+            Lst_RiepilogoDati.Items.Clear();
 
+            if (Txt_Regione.Text != "") // Controllo se è stato inserita una regione
+            {
+                
+            }
+            else
+            {
+                MessageBox.Show("Devi inserire una regione", "Attenzione", MessageBoxButton.OK, MessageBoxImage.Warning); // Avverto all'utente che deve inserire una regione
+            }
         }
     }
 }
