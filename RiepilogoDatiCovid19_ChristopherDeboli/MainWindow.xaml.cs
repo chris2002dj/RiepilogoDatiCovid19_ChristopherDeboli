@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RiepilogoDatiCovid19_ChristopherDeboli.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,7 +32,7 @@ namespace RiepilogoDatiCovid19_ChristopherDeboli
 
             if (Txt_Regione.Text != "") // Controllo se è stato inserita una regione
             {
-                
+
             }
             else
             {
