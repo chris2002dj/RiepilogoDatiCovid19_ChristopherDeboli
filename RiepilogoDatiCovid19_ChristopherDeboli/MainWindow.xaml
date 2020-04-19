@@ -22,7 +22,7 @@
         <!--Ricerca regione-->
         <TextBox x:Name="Txt_Regione" HorizontalAlignment="Center" Height="23" Margin="0,130,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFF" HorizontalAlignment="Center" Height="1" Margin="0,153,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="Btn_CercaRegione" Content="Cerca" HorizontalAlignment="Left" Margin="261,130,0,0" VerticalAlignment="Top" Width="50" Height="24" BorderBrush="{x:Null}" Background="#FFF3FF00" BorderThickness="0" Click="Btn_CercaRegione_Click" />
+        <Button x:Name="Btn_CercaRegione" Content="Cerca" HorizontalAlignment="Left" Margin="261,130,0,0" VerticalAlignment="Top" Width="50" Height="24" BorderBrush="{x:Null}" Background="#FFF3FF00" BorderThickness="0" Click="Btn_CercaRegione_Click"/>
 
         <!--Mostra dati della regione ricercata-->
         <ListBox x:Name="Lst_RiepilogoDati" HorizontalAlignment="Center" Height="229" Margin="0,0,0,5" VerticalAlignment="Bottom" Width="372"/>
