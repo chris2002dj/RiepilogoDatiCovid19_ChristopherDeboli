@@ -33,7 +33,7 @@ namespace RiepilogoDatiCovid19_ChristopherDeboli
 
             if (Txt_Regione.Text != "") // Controllo se è stato inserita una regione
             {
-
+                CaricaDatiXML(); // Chiamo il metodo
             }
             else
             {
